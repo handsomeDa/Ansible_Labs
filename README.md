@@ -13,10 +13,15 @@
 * ```docker-compose up -d```
 
 
-```docker-compose ps```
+
+2. heck Docker status
+
+* ```docker-compose ps```
+
 
 
 ```ssh student@10.10.10.10```
+
 
 
 ```docker-compose down```
