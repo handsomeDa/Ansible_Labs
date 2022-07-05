@@ -9,6 +9,7 @@
      |--playbook.yml   #任務描述檔(-)
 ```
 
+1. Pull image from DockerHub.
 ```docker-compose up -d```
 
 ```docker-compose ps```
