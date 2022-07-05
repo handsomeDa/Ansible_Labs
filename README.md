@@ -10,7 +10,7 @@
 
 1. Pull image from DockerHub.
  
-*```docker-compose up -d```
+* ```docker-compose up -d```
 
 
 ```docker-compose ps```
