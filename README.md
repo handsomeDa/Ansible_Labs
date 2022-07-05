@@ -1,7 +1,6 @@
 # Ansible_Labs
 ### Practice Ansible
 
-
 ```
 |---/webService        #Service資料夾(d)
      |--ansible.cfg    #設定檔(-)
@@ -10,10 +9,14 @@
 ```
 
 1. Pull image from DockerHub.
+ 
 ```docker-compose up -d```
+
 
 ```docker-compose ps```
 
+
 ```ssh student@10.10.10.10```
+
 
 ```docker-compose down```
