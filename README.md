@@ -1,5 +1,13 @@
 # Ansible_Labs
-###Practice Ansible
+### Practice Ansible
+
+
+```
+|---/webService        #Service資料夾(d)
+     |--ansible.cfg    #設定檔(-)
+     |--inventory      #主機列表檔(-)
+     |--playbook.yml   #任務描述檔(-)
+```
 
 ```docker-compose up -d```
 
