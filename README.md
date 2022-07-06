@@ -6,6 +6,11 @@
 - Install Docker
 - Install Docker-Compose
 
+Or
+
+- Online Docker Labs: https://labs.play-with-docker.com/
+
+
 
 ## Install Docker
 Step 1: install basic libs
@@ -35,6 +40,7 @@ $ docker version
 ```
 
 
+
 ## Install Docker-Compose
 Way1: (Refer to: https://docs.docker.com/compose/install/)
 ```
@@ -51,6 +57,7 @@ testing
 ```
 $ docker-compose --version
 ```
+
 
 
 ## Pull Ansible Labs
@@ -81,6 +88,7 @@ Step 4: SSH into workstation
 ```
 $ ssh student@10.10.10.10
 ```
+
 
 
 ## Let's Ansible!
