@@ -34,7 +34,7 @@ Step 4: start docker service
 $ sudo systemctl start docker && sudo systemctl enable docker
 ```
 
-Step 5: testing
+testing
 ```
 $ docker version
 ```
@@ -63,12 +63,12 @@ $ docker-compose --version
 ## Pull Ansible Labs
 
 ```
-|---/playground/example
-     |--ansible.cfg    #設定檔(-)
-     |--inventory      #主機列表檔(-)
+|---/~/playground/example
+    |--ansible.cfg    #設定檔(-)
+    |--inventory      #主機列表檔(-)
 ```
 
-Step 1: cd folder
+Step 1: cd folder labs
 ```
 $ cd labs
 ```
@@ -80,15 +80,20 @@ $ docker-compose up -d
 ```
 
 Step 3: Check Docker status
- ```
- $ docker-compose ps
- ```
+```
+$ docker-compose ps
+```
 
 Step 4: SSH into workstation
 ```
 $ ssh student@10.10.10.10
 ```
 
+If you want to remove lab...
+```
+$ docker-compose down
+$ docker rmi -f [docker image name]
+```
 
 
 ## Let's Ansible!
