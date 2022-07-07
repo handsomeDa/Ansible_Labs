@@ -93,6 +93,19 @@ If you want to remove lab...
 ```
 $ docker-compose down
 $ docker rmi -f [docker image name]
+$ docker system prume
+
+$ docker image ls
+$ docker image -f prune
+$ docker rm image [docker image Name]
+
+$ docker volume ls
+$ docker volume -f prune
+$ docker rm volume [docker volume Name]
+
+$ docker netwoek ls
+$ docker netwoek -f prune
+$ docker rm network [docker network Name]
 ```
 
 
