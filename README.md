@@ -37,6 +37,7 @@ $ sudo systemctl start docker && sudo systemctl enable docker
 testing
 ```
 $ docker version
+$ docker --version
 ```
 
 
@@ -55,6 +56,7 @@ $ sudo pip3 install docker-compose
 
 testing
 ```
+$ docker-compose version
 $ docker-compose --version
 ```
 
