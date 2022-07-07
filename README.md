@@ -121,3 +121,26 @@ Step 2: PING-PONG all hosts
 ```
 $ ansible all -m ping
 ```
+
+
+
+## Issue check
+If ssh logining, the following is displayed.
+> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+> @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+> Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+> It is also possible that a host key has just been changed.
+> The fingerprint for the ECDSA key sent by the remote host is
+> SHA256:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+> Please contact your system administrator.
+> Add correct host key in /Users/elite/.ssh/known_hosts to get rid of this message.
+> Offending ECDSA key in /Users/elite/.ssh/known_hosts:10
+> ECDSA host key for xxx.xx.xxx.xx has changed and you have requested strict checking.
+> Host key verification failed.
+
+Just delete ~/.ssh/known_hosts on your local host, not docker hosts.
+```
+$ rm -rf ~/.ssh/known_hosts
+```
