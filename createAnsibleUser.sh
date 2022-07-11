@@ -21,7 +21,7 @@ auth_file_setting(){
 }
 
 apply_control_node_public_key(){  
-  echo '123456789' >> /home/asbops/.ssh/authorized_keys
+  echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCoIo0+PfA5jeoZC7gsgz5Cpox3+AlxqicO7tUSkgnlcQn6KCY8IWFpNPCNvv6N+e9jOqZ8BsASlFHw7tbXL4h4raBaLfXpZSh7h0L6BydU4WOSp1gDMdtIjLHz1osBiKwwmHdULtstmtShokadPgjBHNRVHZuvx1BFDbHdPDwv4o+brAoso6vUIKTCT82dzRYyB7X3CU98g71VXEuihGGeMMY28a+OXiCqNPwZSqFTf60YQdCvFWApe0LGXrzDQf98pmzwHbwnt+HQ09FN7BI5WVI5ib2ECzfXUUdqmrqZjczTR/hNWBdx3tUSOiKrm4HlBeCW1+HAjIlStl2AYPwR asbadmin@workstation' >> /home/asbops/.ssh/authorized_keys
 }
 
 
