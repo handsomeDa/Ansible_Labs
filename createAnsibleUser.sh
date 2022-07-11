@@ -21,7 +21,7 @@ auth_file_setting(){
 }
 
 apply_control_node_public_key(){  
-  echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNoA3a4IcqNki5GDnzbixBfczG/GKe+2Pssn0PwqaTp0nO4e0z6gxxiJ52AXB+1A+2wcopzNrzdi1U6RI8CEYVIrV+dtHLyJ/xTG7bQz/JV8DbkvDjs16nS40nNY/mKbqmcmDYhlCeS61q7LBtdOkZfEeE6kG8cRTQ2sU6Vvf51oe9ZtaGynI0ZelSxAWybE/mP6hYQvPpEaonQtKuUuWw/MMWk/ZMZqgNA77m/QM0dDo5MPvWXWJ274v1siLSwkJp/nFH12wduIln5Nq9ge6x93C90jE2tnXrlXSwwojceShYveNqRCP3UT187f0SkOLs7v2EkP9LDaNJmmvKRp57 asbadmin@tpedk01t' >> /home/asbops/.ssh/authorized_keys
+  echo '123456789' >> /home/asbops/.ssh/authorized_keys
 }
 
 
